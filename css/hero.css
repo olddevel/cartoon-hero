@@ -1,0 +1,23 @@
+body{
+	margin: 0;
+	font-family: Helvitica, Arial, sans-serif;
+}
+
+header{
+	background-color: #b2cbcb;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+header h1{
+	color: white;
+
+}
+
+header img{
+	border-radius: 125px;
+    width: 250px;
+    border: 14px solid cadetblue;
+}

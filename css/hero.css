@@ -1,6 +1,8 @@
 body{
 	margin: 0;
 	font-family: Helvitica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 header{
@@ -11,8 +13,13 @@ header{
 
 }
 
+h1, h2{
+	font-family: 'Patrick Hand SC', cursive;
+}
+
 header h1{
 	color: white;
+	font-size: 60px;
 
 }
 
@@ -21,3 +28,53 @@ header img{
     width: 250px;
     border: 14px solid cadetblue;
 }
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	font-size: 35px;
+	margin: 40px 0 10px;
+
+}
+
+a{
+	color: teal;
+}
+a:hover{
+	color: purple;
+}
+
+footer{
+	background-color: #b2cbcb;
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a{
+	color: white;
+}
+
+footer a: hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+}
+
